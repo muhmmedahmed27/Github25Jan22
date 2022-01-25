@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Github25Jan22">
         <activity
+            android:name=".AnamActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
